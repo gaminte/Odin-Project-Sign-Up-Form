@@ -1,0 +1,135 @@
+body {
+  font-family: 'Rancho', cursive;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  /* margin-left: 70px; */
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color:#000000;
+}
+
+.antiworks {
+  font-family: 'Monoton', cursive;
+  width: 30%;
+  text-align: center;
+  padding-top: 3.5rem;
+  background-image: url(https://plus.unsplash.com/premium_photo-1667761637953-fed84a8de974?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=999&q=80);
+  background-position:top;
+  background-repeat: no-repeat;
+  font-size: 2.1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #fff;
+  justify-content: center;
+}
+.content {
+  font-size: 1.5rem;
+}
+
+form {
+  font-size: 1.2rem;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.accExist {
+  font-size: 1.8rem;
+}
+
+.accExist>h4>a {
+  text-decoration: none;
+}
+
+form div {
+  display: flex;
+  justify-content: center;
+}
+
+form>div>div {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+form h4 {
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+form input {
+  width: 250px;
+  border-radius: 5px;
+}
+
+form input:focus {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.lastName,.conNumber,.conPass {
+  margin-left: 50px;
+}
+
+.btn {
+  justify-content: center;
+}
+
+.passMatch {
+  justify-content: center;
+  background-color: red;
+  height: 3rem;
+  width: 35rem;
+  align-items: center;
+  font-size: 1.7rem;
+  align-self: center;
+  margin-left: 26px;
+  margin-top: 15px;
+}
+
+.btnSubmit {
+  background: #4255ffa7;
+  border: 1px solid #4255ffa7;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.btnSubmit:hover,
+.btnSubmit:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #4255ffa7;
+}
+
+.btnSubmit:active {
+  opacity: .5;
+}
