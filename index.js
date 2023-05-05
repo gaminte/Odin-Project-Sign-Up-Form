@@ -2,6 +2,7 @@ let pass = document.querySelector("#pass");
 let conPass = document.querySelector("#conPass");
 let passMatch = document.querySelector(".passMatch");
 let form = document.querySelector("form");
+let aLink = document.querySelector(".accExist a")
 let btn = document.querySelector(".btnSubmit");
 passMatch.style.display = "none";
 let passValue;
@@ -25,6 +26,8 @@ function passCheck (e) {
     form.removeAttribute("onsubmit", "return false");
   }
 }
+
+aLink.onclick = e => void(0);
 
 btn.onclick = e => passCheck(e);
 
